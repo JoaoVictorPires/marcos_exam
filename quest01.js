@@ -1,8 +1,10 @@
-function mensagem(mens){
-    texto(mens() =>{
-       return mensagem
-    })
-}
-let mens = 'Eu'
-console.log(mensagem(mens))
-
+function mensagem(mens) {
+    console.log(mens);
+  }
+  
+  function printa(callBack, mensagens) {
+    callBack(mensagens);
+  }
+  
+  const message = 'Kyle';
+  printa(printMessage, message);
